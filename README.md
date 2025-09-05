@@ -5,8 +5,10 @@ A modern, responsive, and user-friendly **Image Gallery web app** supporting **l
 ---
 
 ## 🚀 Preview
-<!-- Replace with the actual path if you add your screenshot image to the repo -->
-![Gallery Preview](images/screenshot.jpg)
+
+![Gallery Preview](images/Screenshot%202025-09-05%20163233.png)  
+![Gallery Preview](images/Screenshot%202025-09-05%20163227.png)
+
 
 ---
 
