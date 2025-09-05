@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Responsive Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Image Gallery</h1>
+    <button id="theme-toggle">Switch to Light Mode</button>
+  </header>
+
+  <main>
+    <section id="controls">
+      <input type="file" id="image-upload" accept="image/*" multiple hidden />
+      <button id="upload-btn">Upload Images</button>
+
+      <div id="category-filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="urban">Urban</button>
+        <button class="filter-btn" data-category="space">Space</button>
+      </div>
+    </section>
+
+    <div class="gallery" id="gallery" aria-live="polite"></div>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button id="close-lightbox" aria-label="Close">&times;</button>
+    <img src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
