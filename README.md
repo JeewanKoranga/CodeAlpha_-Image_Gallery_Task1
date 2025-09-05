@@ -23,7 +23,7 @@ A modern, responsive, and user-friendly **Image Gallery web app** supporting **l
 ---
 
 ## 🎥 Demo
-[Add a hosted link or an animated GIF of the live demo here for extra effect.  ](https://jeewankoranga.github.io/CodeAlpha_-Image_Gallery_Task1/)
+[preview of this website](https://jeewankoranga.github.io/CodeAlpha_-Image_Gallery_Task1/)
 
 ---
 
